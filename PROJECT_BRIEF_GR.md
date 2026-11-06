@@ -23,4 +23,4 @@ Backend: Google Apps Script web app (URL μέσα στο index.html), Google She
 5. Ενδεχόμενη ασυμφωνία μεταξύ κατανομής συνολικών αγορών και χρονικών περιόδων· μην παρουσιάζεις ως επίσημο λογαριασμό χωρίς επιβεβαίωση.
 
 ## Προστασία
-Μη διαγράψεις πραγματικά δεδομένα, μην αλλάξεις Apps Script deployment ή GitHub Pages χωρίς έγκριση. Μη βάλεις PIN, SHEET_ID, tokens ή άλλα secrets στο repo. Το Code.gs του Apps Script ΔΕΝ βρίσκεται στο repo και χρειάζεται ξεχωριστή εξαγωγή αν ζητηθούν backend αλλαγές.
+Μη διαγράψεις πραγματικά δεδομένα, μην αλλάξεις Apps Script deployment ή GitHub Pages χωρίς έγκριση. Μη βάλεις PIN, SHEET_ID, tokens ή άλλα secrets στο repo. Το Code.gs προστέθηκε στο repo από τον κώδικα που παρείχε ο χρήστης. Οι αλλαγές του στο GitHub ΔΕΝ ενημερώνουν αυτόματα το live Apps Script· απαιτείται συγχρονισμός και νέο deployment. Το doGet fallback αναφέρεται σε αρχείο HTML «Index» που δεν περιλαμβάνεται στο repo και πρέπει να ελεγχθεί αν χρησιμοποιείται.
