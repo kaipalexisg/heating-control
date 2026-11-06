@@ -14,7 +14,7 @@ Mobile-first static frontend για κατανομή αγορών πετρελα
 - Backend: Google Apps Script (endpoint δηλωμένο στο `API` του `index.html`).
 - Data: Google Sheets, `Heating Control Data`.
 - Read: JSONP snapshot. Write: hidden iframe form POST, με polling μετά την αποστολή.
-- Δεν υπάρχει εδώ το server-side `Code.gs` ούτε credentials.
+- Το server-side `Code.gs` περιλαμβάνεται στο repository ως αντίγραφο πηγαίου κώδικα, χωρίς credentials. Οι αλλαγές σε αυτό δεν δημοσιεύονται αυτόματα στο Apps Script.
 
 ## Βασικοί κανόνες
 - Ισόγειο: 128,27 τ.μ. · 1ος: 93,93 τ.μ.
